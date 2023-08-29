@@ -16,11 +16,11 @@ function generate_project_tree() {
     SED="sed"
   fi
 
-  LANG=en_US.UTF-8 tree -tf --noreport -I $IGNORED --charset ascii "$1" |
-    $SED -e '1d'                                         # Cut first line
-    # $SED -e 's/| \+/  /g' |                               # Remove duplicated '|'
-    # $SED -e 's/[|`]-\+/ */g' |                            # Replace '|--' with '*'
-    # $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g'  # Add link for contents
+  tree -tf --noreport -I '*~' --charset ascii $1 | 
+    $SED -e '1d' | 
+    $SED -e 's/| \+/  /g' | 
+    $SED -e 's/[|`]-\+/ */g' |
+    $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g' 
 }
 
 function generate_readme() {
