@@ -1,10 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 function generate_project_tree() {
   # Original from https://stackoverflow.com/a/35889620/11929317
   # This is a ported version for mac
-
-  IGNORED="venv|update-readme|README.md"
+  IGNORED="venv|update-readme|new-boj|README.md"
   SED_FOR_MAC="gsed"
 
   if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -17,20 +16,20 @@ function generate_project_tree() {
     SED="sed"
   fi
 
-  tree -tf --noreport -I $IGNORED --charset ascii "$1" |
-    $SED -e '1d' |                                        # Cut first line
-    $SED -e 's/| \+/  /g' |                               # Remove duplicated '|'
-    $SED -e 's/[|`]-\+/ */g' |                            # Replace '|--' with '*'
-    $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g'  # Add link for contents
+  LANG=en_US.UTF-8 tree -tf --noreport -I $IGNORED --charset ascii "$1" |
+    $SED -e '1d'                                         # Cut first line
+    # $SED -e 's/| \+/  /g' |                               # Remove duplicated '|'
+    # $SED -e 's/[|`]-\+/ */g' |                            # Replace '|--' with '*'
+    # $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g'  # Add link for contents
 }
 
 function generate_readme() {
   readme="$1/README.md"
   readme_template="$1/.readme_template.md"
 
-  perl -p0e 's/\_\_PROJECT_TREE\_\_/`cat`/se' "$readme_template" > "$readme"
+  perl -p0e "s/=PROJECT_TREE=/`cat`/se" "$readme_template" > "$readme"
+  echo "$readme_template" > "$readme"
 }
 
-echo $1
 cd "$(dirname "$0")" || exit 1
 generate_project_tree . | generate_readme .
