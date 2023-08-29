@@ -2,8 +2,6 @@
 
 ## Today I Learned- 매일 보고 들은 모든 것
 
- * [python](./python)
-   * [파이썬 코딩 도장](./python/파이썬 코딩 도장)
  * [algorithm](./algorithm)
    * [DynamicProgramming](./algorithm/DynamicProgramming)
      * [dp_climning_stairs.py](./algorithm/DynamicProgramming/dp_climning_stairs.py)
@@ -42,13 +40,16 @@
      * [tree_dfs.py](./algorithm/Tree/tree_dfs.py)
      * [tree_level_order_maximum_depth.py](./algorithm/Tree/tree_level_order_maximum_depth.py)
      * [tree_post_order_lowest_common_ancestor.py](./algorithm/Tree/tree_post_order_lowest_common_ancestor.py)
- * [_dailynote](./_dailynote)
-   * [2023-08-28.md](./_dailynote/2023-08-28.md)
  * [os](./os)
    * [실습과_그림으로_배우는_리눅스_구조](./os/실습과_그림으로_배우는_리눅스_구조)
      * [ch3_프로세스_관리.md](./os/실습과_그림으로_배우는_리눅스_구조/ch3_프로세스_관리.md)
      * [ch2_사용자_모드로_구현되는_기능.md](./os/실습과_그림으로_배우는_리눅스_구조/ch2_사용자_모드로_구현되는_기능.md)
      * [ch1_컴퓨터_시스템의_개요.md](./os/실습과_그림으로_배우는_리눅스_구조/ch1_컴퓨터_시스템의_개요.md)
      * [ch4_프로세스_스케줄러.md](./os/실습과_그림으로_배우는_리눅스_구조/ch4_프로세스_스케줄러.md)
+ * [python](./python)
+   * [파이썬_코딩_도장](./python/파이썬_코딩_도장)
+ * [_dailynote](./_dailynote)
+   * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
+   * [2023-08-29-tue.md](./_dailynote/2023-08-29-tue.md)
  * [README.md](./README.md)
 
