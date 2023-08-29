@@ -16,12 +16,13 @@ function generate_project_tree() {
     SED="sed"
   fi
 
-  tree -tf --noreport -I '*~' --charset ascii $1 | 
-    $SED -e '1d' | 
+  tree -tf --noreport -I '*~' --charset ascii $1 |
+    $SED -e '1d'  |
     $SED -e 's/    /   |/g' |
-    $SED -e 's/| \+/  /g' | 
+    $SED -e 's/| \+/  /g'  |
     $SED -e 's/[|`]-\+/ */g' |
-    $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g' 
+    $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g' |
+    grep -vE "img|update-readme"
 }
 
 function generate_readme() {
