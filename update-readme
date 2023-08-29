@@ -27,7 +27,7 @@ function generate_readme() {
   readme="$1/README.md"
   readme_template="$1/.readme_template.md"
 
-  perl -p0e "s/=PROJECT_TREE=/`cat`/se" "$readme_template" > "$readme"
+  perl -p0e "s/=PROJECT_TREE=/$(generate_project_tree .)/se" "$readme_template" > "$readme"
   echo "$readme_template" > "$readme"
 }
 
