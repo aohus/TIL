@@ -18,6 +18,7 @@ function generate_project_tree() {
 
   tree -tf --noreport -I '*~' --charset ascii $1 | 
     $SED -e '1d' | 
+    $SED -e 's/    /   |/g' |
     $SED -e 's/| \+/  /g' | 
     $SED -e 's/[|`]-\+/ */g' |
     $SED -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g' 
@@ -27,7 +28,7 @@ function generate_readme() {
   readme="$1/README.md"
   readme_template="$1/.readme_template.md"
 
-  # perl -p0e "s/=PROJECT_TREE=/$(generate_project_tree .)/se" "$readme_template" > "$readme"
+  perl -p0e 's/__PROJECT_TREE__/`cat`/se' "$readme_template" > "$readme"
 }
 
 cd "$(dirname "$0")" || exit 1
