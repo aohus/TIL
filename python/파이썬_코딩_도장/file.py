@@ -1,0 +1,6 @@
+file1=open('test1.txt', 'w')
+file1.write('test file')
+file2=open('test3.txt', 'w')
+file2.write('test file')
+# file1.close()
+# file20.close()
