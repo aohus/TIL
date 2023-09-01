@@ -62,5 +62,6 @@
  * [_dailynote](./_dailynote)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
    * [2023-08-29-tue.md](./_dailynote/2023-08-29-tue.md)
+   * [2023-08-30-wed.md](./_dailynote/2023-08-30-wed.md)
  * [README.md](./README.md)
 
