@@ -56,6 +56,8 @@
      * [ch40_제너레이터.md](./python/파이썬_코딩_도장/ch40_제너레이터.md)
      * [ch39_이터레이터.md](./python/파이썬_코딩_도장/ch39_이터레이터.md)
      * [ch41_코루틴.md](./python/파이썬_코딩_도장/ch41_코루틴.md)
+     * [ch33_클로저.md](./python/파이썬_코딩_도장/ch33_클로저.md)
+     * [ch42_데코레이터.md](./python/파이썬_코딩_도장/ch42_데코레이터.md)
  * [_dailynote](./_dailynote)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
    * [2023-08-29-tue.md](./_dailynote/2023-08-29-tue.md)
