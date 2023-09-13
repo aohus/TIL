@@ -68,6 +68,7 @@
      * [ch1.네트워크_시작하기.md](./network/IT_엔지니어를_위한_네트워크_입문/ch1.네트워크_시작하기.md)
      * [ch5.라우터.md](./network/IT_엔지니어를_위한_네트워크_입문/ch5.라우터.md)
      * [ch6.로드밸런서_방화벽.md](./network/IT_엔지니어를_위한_네트워크_입문/ch6.로드밸런서_방화벽.md)
+     * [ch7.통신을_도와주는_네트워크_기술.md](./network/IT_엔지니어를_위한_네트워크_입문/ch7.통신을_도와주는_네트워크_기술.md)
  * [_dailynote](./_dailynote)
    * [2023-08-30-wed.md](./_dailynote/2023-08-30-wed.md)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
@@ -80,5 +81,6 @@
    * [2023-09-04-mon.md](./_dailynote/2023-09-04-mon.md)
    * [2023-09-11-mon.md](./_dailynote/2023-09-11-mon.md)
    * [2023-09-12-tue.md](./_dailynote/2023-09-12-tue.md)
+   * [2023-09-13-wed.md](./_dailynote/2023-09-13-wed.md)
  * [README.md](./README.md)
 
