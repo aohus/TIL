@@ -53,11 +53,11 @@ finished at 18:14:35
 
 
 `await`은 사실 내부적으로 두 가지 동작을 한다고 볼 수 있습니다. 
-1. `await` 뒤에 있는 [[(완_1) 23.08.26 파이썬 코딩도장#UNIT41 코루틴 사용하기|코루틴]]을 (좀 더 정확히는 Awaitable 객체) Eventloop에 실행해달라고 등록하고
+1. `await` 뒤에 있는 코루틴을 (좀 더 정확히는 Awaitable 객체) Eventloop에 실행해달라고 등록하고
 2. 두 번째로 등록한 코루틴이 끝날 때 돌려받길 기대하며 실행권을 Eventloop에게 반환합니다. 
 Eventloop은 등록한 코루틴이 종료되거나 에러가 발생한 이후에 실행권을 돌려줍니다. Eventloop은 이런 식으로 여러 코루틴 사이에 실행권을 주고받으며 cooperation multitasking 을 달성하는 것이죠.
 
-`asyncio.create_task()`입니다. 해당 함수의 역할은, 파라미터로 들어오는 코루틴을 Eventloop에 등록하고 코루틴이 끝났을 때 결과를 받아볼 수 있는 [Task 객체](https://docs.python.org/ko/3.10/library/asyncio-task.html#task-object) 를 반환합니다. 반환되는 Task 또한 [[Awaitable 객체]]이기 때문에 `await`을 앞에 붙이면 Eventloop에 실행권을 넘기면서 코루틴의 종료까지 기다릴 수 있지만, 지금은 필요하지 않기 때문에 의도적으로 `await` 없이 넘어갔습니다. 그 때문에 실행권을 뺏기지 않은 채로 다음 태스크를 생성할 수 있었습니다. 
+`asyncio.create_task()`입니다. 해당 함수의 역할은, 파라미터로 들어오는 코루틴을 Eventloop에 등록하고 코루틴이 끝났을 때 결과를 받아볼 수 있는 [Task 객체](https://docs.python.org/ko/3.10/library/asyncio-task.html#task-object) 를 반환합니다. 반환되는 Task 또한 Awaitable 객체이기 때문에 `await`을 앞에 붙이면 Eventloop에 실행권을 넘기면서 코루틴의 종료까지 기다릴 수 있지만, 지금은 필요하지 않기 때문에 의도적으로 `await` 없이 넘어갔습니다. 그 때문에 실행권을 뺏기지 않은 채로 다음 태스크를 생성할 수 있었습니다. 
 
 `await` 없이 `say_after()` 함수만 쓰는 것은 불가능합니다. `say_after()`은 “코루틴 함수” 이며, `say_after은()`은 “코루틴 객체” 를 생성해서 반환할 뿐 실제로 코루틴을 실행하지 않기 때문입니다. 즉 코루틴을 실행하려면 `asyncio.create_task`나 `await` 등을 통해 Eventloop에 등록하는 것이 필수입니다.
 
@@ -101,4 +101,4 @@ asyncio에 공리가 하나 있는데, **“스레드당 실행 중인 Eventloo
                    ▼
 ```
 
-내부에 `await`을 각각 2번, 1번씩 사용하는 코루틴 2개가 Eventloop에 등록되어있을 때 어떤 방식으로 번갈아서 실행하는지를 예로 들었습니다. 앞서서 `await` 키워드가 실행될 때 실행권을 Eventloop에 넘긴다고 했는데, 이때 해당 코루틴이 Suspend 되면서 다른 코루틴을 마저 실행합니다. OS에서 사용되는 프로세스 스케줄러와 비슷해 보이는데, 가장 큰 다른 점은 선점 여부입니다. 대부분의 프로세스 스케줄러는 선점형이기 때문에 프로세스의 실행권을 뺏을 수 있지만, Eventloop은 비선점형이기 때문에 실행 중인 코루틴이 `await`을 사용하거나 `return` 해서 실행권을 Eventloop에 돌려주지 않는다면 실행권을 뺏어서 다른 코루틴을 실행할 방법이 없습니다. 바로 이 이유 때문에 [requests](https://pypi.org/project/requests/) 같은 blocking 코드를 코루틴 내부에서 실행하지 못하도록 가이드 하는 것입니다.
+내부에 `await`을 각각 2번, 1번씩 사용하는 코루틴 2개가 Eventloop에 등록되어있을 때 어떤 방식으로 번갈아서 실행하는지를 예로 들었습니다. 앞서서 `await` 키워드가 실행될 때 실행권을 Eventloop에 넘긴다고 했는데, 이때 해당 코루틴이 Suspend 되면서 다른 코루틴을 마저 실행합니다. OS에서 사용되는 프로세스 스케줄러와 비슷해 보이는데, 가장 큰 다른 점은 선점 여부입니다. 대부분의 프로세스 스케줄러는 선점형이기 때문에 프로세스의 실행권을 뺏을 수 있지만, Eventloop은 비선점형이기 때문에 실행 중인 코루틴이 `await`을 사용하거나 `return` 해서 실행권을 Eventloop에 돌려주지 않는다면 실행권을 뺏어서 다른 코루틴을 실행할 방법이 없습니다. 바로 이 이유 때문에 requests 같은 blocking 코드를 코루틴 내부에서 실행하지 못하도록 가이드 하는 것입니다.
