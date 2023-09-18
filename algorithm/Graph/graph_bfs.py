@@ -1,3 +1,6 @@
+"""
+bfs 연습
+"""
 from collections import deque
 
 
