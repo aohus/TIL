@@ -14,4 +14,4 @@ class Solution:
         for post, pre in prerequisites :
             graph[post].append(pre)
         
-        def dfs(i):
+        def dfs(i)
