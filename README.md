@@ -75,6 +75,7 @@
      * [graph_subsets.py](./algorithm/Graph/graph_subsets.py)
      * [graph_reconstruct.py](./algorithm/Graph/graph_reconstruct.py)
      * [graph_course_schedule.py](./algorithm/Graph/graph_course_schedule.py)
+     * [dijkstra.py](./algorithm/Graph/dijkstra.py)
  * [_dailynote](./_dailynote)
    * [2023-08-30-wed.md](./_dailynote/2023-08-30-wed.md)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
@@ -91,6 +92,7 @@
    * [2023-09-14-thu.md](./_dailynote/2023-09-14-thu.md)
    * [2023-09-17-sun.md](./_dailynote/2023-09-17-sun.md)
    * [2023-09-18-mon.md](./_dailynote/2023-09-18-mon.md)
+   * [2023-09-20-wed.md](./_dailynote/2023-09-20-wed.md)
    * [2023-09-19-tue.md](./_dailynote/2023-09-19-tue.md)
  * [README.md](./README.md)
 
