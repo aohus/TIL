@@ -22,6 +22,7 @@
      * [ch7.통신을_도와주는_네트워크_기술.md](./network/IT_엔지니어를_위한_네트워크_입문/ch7.통신을_도와주는_네트워크_기술.md)
      * [ch8.서버_네트워크_기본.md](./network/IT_엔지니어를_위한_네트워크_입문/ch8.서버_네트워크_기본.md)
      * [ch9.보안.md](./network/IT_엔지니어를_위한_네트워크_입문/ch9.보안.md)
+     * [ch10.서버의_방화벽.md](./network/IT_엔지니어를_위한_네트워크_입문/ch10.서버의_방화벽.md)
  * [python](./python)
    * [파이썬_코딩_도장](./python/파이썬_코딩_도장)
      * [ch34_클래스_사용하기.md](./python/파이썬_코딩_도장/ch34_클래스_사용하기.md)
@@ -96,5 +97,6 @@
    * [2023-09-21-thu.md](./_dailynote/2023-09-21-thu.md)
    * [2023-09-19-tue.md](./_dailynote/2023-09-19-tue.md)
    * [2023-09-13-wed.md](./_dailynote/2023-09-13-wed.md)
+   * [2023-09-22.fri.md](./_dailynote/2023-09-22.fri.md)
  * [README.md](./README.md)
 
