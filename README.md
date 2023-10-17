@@ -1,6 +1,6 @@
 # TIL
 
-## Today I Learned- 매일 보고 들은 모든 것
+## Today I Learneds
 
  * [system_architecture](./system_architecture)
    * [대규모_시스템_설계_기초.md](./system_architecture/대규모_시스템_설계_기초.md)
@@ -111,8 +111,8 @@
    * [2023-09-23-sat.md](./_dailynote/2023-09-23-sat.md)
    * [2023-10-01-sun.md](./_dailynote/2023-10-01-sun.md)
    * [2023-10-02-mon.md](./_dailynote/2023-10-02-mon.md)
-   * [2023-10-03-tue.md](./_dailynote/2023-10-03-tue.md)
    * [2023-10-06-fri.md](./_dailynote/2023-10-06-fri.md)
    * [2023-10-05-thu.md](./_dailynote/2023-10-05-thu.md)
+   * [2023-10-03-tue.md](./_dailynote/2023-10-03-tue.md)
  * [README.md](./README.md)
 
