@@ -118,5 +118,7 @@
    * [2023-10-03-tue.md](./_dailynote/2023-10-03-tue.md)
    * [2023-10-17-tue.md](./_dailynote/2023-10-17-tue.md)
    * [2023-10-20-fri.md](./_dailynote/2023-10-20-fri.md)
+   * [2023-10-24-tue.md](./_dailynote/2023-10-24-tue.md)
+   * [2023-10-23-mon.md](./_dailynote/2023-10-23-mon.md)
  * [README.md](./README.md)
 
