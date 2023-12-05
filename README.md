@@ -1,17 +1,5 @@
 # TIL
 
-## 2023.12 달력
-
-| 일 | 월 | 화 | 수 | 목 | 금 | 토 |
-|----|----|----|----|----|----|----|
-|    |    |    |    |01:  |02:  |
-|03:  |04: <br>[dynamic_array_3_same_digit.ipynb](./algorithm/List/dynamic_array_3_same_digit.ipynb)<br>[til-architecture-231202.png](./img/til-architecture-231202.png)<br>[algorithm-231204-01.png](./img/algorithm-231204-01.png)<br>[f9abe0b8768e2aa6c17c9735a9a67f946680a0](./.git/objects/61/f9abe0b8768e2aa6c17c9735a9a67f946680a0)<br>[f4d6feb8bfc52337988ea17dbd35da3193657e](./.git/objects/32/f4d6feb8bfc52337988ea17dbd35da3193657e)<br>[942b8971a50ea4be54463f0187ee84e14fb69c](./.git/objects/b5/942b8971a50ea4be54463f0187ee84e14fb69c)<br>[d0d9ad6f859fa219a8852106ebf82195f791af](./.git/objects/be/d0d9ad6f859fa219a8852106ebf82195f791af)<br>[4a8c6bdc10328566de4e403bdc26f5c4ce738f](./.git/objects/be/4a8c6bdc10328566de4e403bdc26f5c4ce738f)<br>[7d3f26327759a03343b7ff23549f23f94a6da6](./.git/objects/f4/7d3f26327759a03343b7ff23549f23f94a6da6)<br>[721763cb977f481b1b78385c8fcb244e1cb0d1](./.git/objects/fc/721763cb977f481b1b78385c8fcb244e1cb0d1)<br>[f3294012c02c29192b0d54220eb960ee884d30](./.git/objects/ca/f3294012c02c29192b0d54220eb960ee884d30)<br>[f6ad709029b4b33408236f42d03e0858ac602c](./.git/objects/2f/f6ad709029b4b33408236f42d03e0858ac602c)<br>[740a7e7adfcdcf1478ccd2508e8d325e5bacc1](./.git/objects/3a/740a7e7adfcdcf1478ccd2508e8d325e5bacc1)<br>[fa268479e3c761685986e6e2b56ae38a6d16db](./.git/objects/5b/fa268479e3c761685986e6e2b56ae38a6d16db)<br>[f6d740492bd0d5ea059c9d2b78f516b680a44a](./.git/objects/de/f6d740492bd0d5ea059c9d2b78f516b680a44a)<br>[c7c928ea6c805be64d266ff5fa77b855aa804e](./.git/objects/46/c7c928ea6c805be64d266ff5fa77b855aa804e)<br>[78462f3ca80e318eda4889887c3fb969007653](./.git/objects/12/78462f3ca80e318eda4889887c3fb969007653)<br>[b7f7117cc58e1870c275acb7685b738f11079a](./.git/objects/82/b7f7117cc58e1870c275acb7685b738f11079a)<br>[57848adc3a99b5d8306d66e3ba85eff9d78051](./.git/objects/49/57848adc3a99b5d8306d66e3ba85eff9d78051)<br>[HEAD](./.git/logs/HEAD)<br>[main](./.git/logs/refs/heads/main)<br>[main](./.git/logs/refs/remotes/origin/main)<br>[main](./.git/refs/heads/main)<br>[main](./.git/refs/remotes/origin/main)<br>[index](./.git/index)<br>[COMMIT_EDITMSG](./.git/COMMIT_EDITMSG)<br>[2023-12-02-sat.md](./_dailynote/2023-12-02-sat.md)<br>[2023-12-04-mon.md](./_dailynote/2023-12-04-mon.md)<br>[2023-11-30-thu.md](./_dailynote/2023-11-30-thu.md)<br>[2023-11-29-wed.md](./_dailynote/2023-11-29-wed.md) |05: <br>[create_calander.sh](./create_calander.sh)<br>[calendar.md](./calendar.md)<br>[README.md](./README.md)<br>[FETCH_HEAD](./.git/FETCH_HEAD) |06:  |07:  |08:  |09:  |
-|10:  |11:  |12:  |13:  |14:  |15:  |16:  |
-|17:  |18:  |19:  |20:  |21:  |22:  |23:  |
-|24:  |25:  |26:  |27:  |28:  |29:  |30:  |
-|31:  |
-
-
 ## Today I Learned
 
  * [system_architecture](./system_architecture)
@@ -39,18 +27,6 @@
      * [views-viewsets-generics.md](./python/django/views-viewsets-generics.md)
    * [list.py](./python/list.py)
    * [multi_thread.py](./python/multi_thread.py)
- * [os](./os)
-   * [실습과_그림으로_배우는_리눅스_구조](./os/실습과_그림으로_배우는_리눅스_구조)
-     * [ch3_프로세스_관리.md](./os/실습과_그림으로_배우는_리눅스_구조/ch3_프로세스_관리.md)
-     * [ch2_사용자_모드로_구현되는_기능.md](./os/실습과_그림으로_배우는_리눅스_구조/ch2_사용자_모드로_구현되는_기능.md)
-     * [ch1_컴퓨터_시스템의_개요.md](./os/실습과_그림으로_배우는_리눅스_구조/ch1_컴퓨터_시스템의_개요.md)
-     * [ch4_프로세스_스케줄러.md](./os/실습과_그림으로_배우는_리눅스_구조/ch4_프로세스_스케줄러.md)
-     * [ch6_메모리_계층.md](./os/실습과_그림으로_배우는_리눅스_구조/ch6_메모리_계층.md)
-     * [ch7_파일시스템.md](./os/실습과_그림으로_배우는_리눅스_구조/ch7_파일시스템.md)
-     * [ch8_저장_장치.md](./os/실습과_그림으로_배우는_리눅스_구조/ch8_저장_장치.md)
-   * [컴퓨터_아키텍처와_운영체제.md](./os/컴퓨터_아키텍처와_운영체제.md)
-   * [race_condition.md](./os/race_condition.md)
-   * [Shell.md](./os/Shell.md)
  * [network](./network)
    * [네트워크_기초.md](./network/네트워크_기초.md)
    * [IT_엔지니어를_위한_네트워크_입문](./network/IT_엔지니어를_위한_네트워크_입문)
@@ -68,6 +44,21 @@
    * [HTTPS.md](./network/HTTPS.md)
    * [디피_헬먼_키_교환.md](./network/디피_헬먼_키_교환.md)
    * [파일_전송_프로토콜_비교.md](./network/파일_전송_프로토콜_비교.md)
+ * [create_calander.sh](./create_calander.sh)
+ * [calendar.md](./calendar.md)
+ * [os](./os)
+   * [실습과_그림으로_배우는_리눅스_구조](./os/실습과_그림으로_배우는_리눅스_구조)
+     * [ch3_프로세스_관리.md](./os/실습과_그림으로_배우는_리눅스_구조/ch3_프로세스_관리.md)
+     * [ch2_사용자_모드로_구현되는_기능.md](./os/실습과_그림으로_배우는_리눅스_구조/ch2_사용자_모드로_구현되는_기능.md)
+     * [ch1_컴퓨터_시스템의_개요.md](./os/실습과_그림으로_배우는_리눅스_구조/ch1_컴퓨터_시스템의_개요.md)
+     * [ch4_프로세스_스케줄러.md](./os/실습과_그림으로_배우는_리눅스_구조/ch4_프로세스_스케줄러.md)
+     * [ch6_메모리_계층.md](./os/실습과_그림으로_배우는_리눅스_구조/ch6_메모리_계층.md)
+     * [ch7_파일시스템.md](./os/실습과_그림으로_배우는_리눅스_구조/ch7_파일시스템.md)
+     * [ch8_저장_장치.md](./os/실습과_그림으로_배우는_리눅스_구조/ch8_저장_장치.md)
+   * [컴퓨터_아키텍처와_운영체제.md](./os/컴퓨터_아키텍처와_운영체제.md)
+   * [race_condition.md](./os/race_condition.md)
+   * [Shell.md](./os/Shell.md)
+   * [CAS.md](./os/CAS.md)
  * [_dailynote](./_dailynote)
    * [2023-08-30-wed.md](./_dailynote/2023-08-30-wed.md)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
@@ -110,6 +101,7 @@
    * [2023-11-30-thu.md](./_dailynote/2023-11-30-thu.md)
    * [2023-12-02-sat.md](./_dailynote/2023-12-02-sat.md)
    * [2023-12-04-mon.md](./_dailynote/2023-12-04-mon.md)
+   * [2023-12-05-tue.md](./_dailynote/2023-12-05-tue.md)
  * [algorithm](./algorithm)
    * [QueueAndStack](./algorithm/QueueAndStack)
      * [heap_merge_k_sorted_lists.py](./algorithm/QueueAndStack/heap_merge_k_sorted_lists.py)
@@ -166,7 +158,6 @@
      * [dynamic_array_sum_of_absolute_difference.ipynb](./algorithm/List/dynamic_array_sum_of_absolute_difference.ipynb)
      * [dynamic_array_largest_submatrix.ipynb](./algorithm/List/dynamic_array_largest_submatrix.ipynb)
      * [dynamic_array_3_same_digit.ipynb](./algorithm/List/dynamic_array_3_same_digit.ipynb)
- * [create_calander.sh](./create_calander.sh)
- * [calendar.md](./calendar.md)
+   * [count_matches.ipynb](./algorithm/count_matches.ipynb)
  * [README.md](./README.md)
 
