@@ -158,6 +158,7 @@
      * [dynamic_array_sum_of_absolute_difference.ipynb](./algorithm/List/dynamic_array_sum_of_absolute_difference.ipynb)
      * [dynamic_array_largest_submatrix.ipynb](./algorithm/List/dynamic_array_largest_submatrix.ipynb)
      * [dynamic_array_3_same_digit.ipynb](./algorithm/List/dynamic_array_3_same_digit.ipynb)
-   * [count_matches.ipynb](./algorithm/count_matches.ipynb)
+   * [Math](./algorithm/Math)
+     * [math_count_matches.ipynb](./algorithm/Math/math_count_matches.ipynb)
  * [README.md](./README.md)
 
