@@ -165,5 +165,6 @@
    * [2023-12-05-tue.md](./_dailynote/2023-12-05-tue.md)
    * [2023-12-06-wed.md](./_dailynote/2023-12-06-wed.md)
    * [2023-12-10-sun.md](./_dailynote/2023-12-10-sun.md)
+   * [2023-12-12-tue.md](./_dailynote/2023-12-12-tue.md)
  * [README.md](./README.md)
 
