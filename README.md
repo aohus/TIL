@@ -172,5 +172,6 @@
    * [2023-12-14-thu.md](./_dailynote/2023-12-14-thu.md)
    * [2023-12-15-fri.md](./_dailynote/2023-12-15-fri.md)
    * [2023-12-22-fri.md](./_dailynote/2023-12-22-fri.md)
+   * [2023-12-23-sat.md](./_dailynote/2023-12-23-sat.md)
  * [README.md](./README.md)
 
