@@ -121,6 +121,7 @@
      * [dynamic_array_largest_submatrix.ipynb](./algorithm/List/dynamic_array_largest_submatrix.ipynb)
      * [dynamic_array_3_same_digit.ipynb](./algorithm/List/dynamic_array_3_same_digit.ipynb)
      * [dynamic_array_ones_minus_zeros.ipynb](./algorithm/List/dynamic_array_ones_minus_zeros.ipynb)
+ * [pyproject.toml](./pyproject.toml)
  * [_dailynote](./_dailynote)
    * [2023-08-30-wed.md](./_dailynote/2023-08-30-wed.md)
    * [2023-08-28-mon.md](./_dailynote/2023-08-28-mon.md)
@@ -170,5 +171,6 @@
    * [2023-12-13-wed.md](./_dailynote/2023-12-13-wed.md)
    * [2023-12-14-thu.md](./_dailynote/2023-12-14-thu.md)
    * [2023-12-15-fri.md](./_dailynote/2023-12-15-fri.md)
+   * [2023-12-22-fri.md](./_dailynote/2023-12-22-fri.md)
  * [README.md](./README.md)
 
