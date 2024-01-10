@@ -189,5 +189,7 @@
    * [2024-01-02-tue.md](./_dailynote/2024-01-02-tue.md)
    * [2024-01-03-wed.md](./_dailynote/2024-01-03-wed.md)
    * [2024-01-09-tue.md](./_dailynote/2024-01-09-tue.md)
+ * [database](./database)
+   * [sysbench-and-mysql.md](./database/sysbench-and-mysql.md)
  * [README.md](./README.md)
 
