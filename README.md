@@ -125,6 +125,8 @@
      * [\010dynamic_array_reverse_word.ipynb](./algorithm/List/\010dynamic_array_reverse_word.ipynb)
      * [dynamic_array_merge_string.ipynb](./algorithm/List/dynamic_array_merge_string.ipynb)
      * [dynamic_array_increasing_subsequences.ipynb](./algorithm/List/dynamic_array_increasing_subsequences.ipynb)
+     * [dynamic_array_flowerbed.ipynb](./algorithm/List/dynamic_array_flowerbed.ipynb)
+     * [dynamic_array_string_comprehensions.ipynb](./algorithm/List/dynamic_array_string_comprehensions.ipynb)
  * [tmp](./tmp)
    * [test_user_e2e.py](./tmp/test_user_e2e.py)
    * [test_payment.py](./tmp/test_payment.py)
