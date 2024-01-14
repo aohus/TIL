@@ -195,5 +195,6 @@
    * [2024-01-03-wed.md](./_dailynote/2024-01-03-wed.md)
    * [2024-01-09-tue.md](./_dailynote/2024-01-09-tue.md)
    * [2024-01-10-wed.md](./_dailynote/2024-01-10-wed.md)
+   * [2024-01-11-thu.md](./_dailynote/2024-01-11-thu.md)
  * [README.md](./README.md)
 
