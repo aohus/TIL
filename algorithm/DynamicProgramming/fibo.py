@@ -10,7 +10,7 @@ memo = {1: 1, 2: 1}
 def fibo_memo(n):
     if n in memo:
         return memo[n]
-    memo[n] = fibo(n - 2) + fibo(n - 1)
+    memo[n] = fibo_memo(n - 2) + fibo_memo(n - 1)
     return memo[n]
 
 
@@ -33,4 +33,4 @@ def fibo(n):
     return fibo(n - 1) + fibo(n - 2)
 
 
-print(fibo(100))
+print(fibo(10))

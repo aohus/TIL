@@ -127,10 +127,6 @@
      * [dynamic_array_increasing_subsequences.ipynb](./algorithm/List/dynamic_array_increasing_subsequences.ipynb)
      * [dynamic_array_flowerbed.ipynb](./algorithm/List/dynamic_array_flowerbed.ipynb)
      * [dynamic_array_string_comprehensions.ipynb](./algorithm/List/dynamic_array_string_comprehensions.ipynb)
- * [tmp](./tmp)
-   * [test_user_e2e.py](./tmp/test_user_e2e.py)
-   * [test_payment.py](./tmp/test_payment.py)
-   * [test_payment_mock.py](./tmp/test_payment_mock.py)
  * [database](./database)
    * [sysbench-and-mysql.md](./database/sysbench-and-mysql.md)
  * [_dailynote](./_dailynote)
@@ -196,5 +192,6 @@
    * [2024-01-09-tue.md](./_dailynote/2024-01-09-tue.md)
    * [2024-01-10-wed.md](./_dailynote/2024-01-10-wed.md)
    * [2024-01-11-thu.md](./_dailynote/2024-01-11-thu.md)
+   * [2024-01-14-sun.md](./_dailynote/2024-01-14-sun.md)
  * [README.md](./README.md)
 
